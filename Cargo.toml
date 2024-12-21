@@ -1,0 +1,7 @@
+[package]
+name = "upjumpd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustix = "0.38.42"
