@@ -12,4 +12,4 @@ qemu-system-aarch64 \
     -netdev user,id=net0 \
     -device virtio-net-device,netdev=net0 \
     -kernel buildroot/output/images/Image \
-    -append "console=ttyAMA0 root=/dev/vda"
+    -append "root=/dev/vda"
